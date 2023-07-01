@@ -17,3 +17,4 @@ def convert_audio_to_text(audio_file):
         print("ERROR HAPPENED")
         print(e)
         return
+    
