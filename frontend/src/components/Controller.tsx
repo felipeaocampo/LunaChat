@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useId, useState } from "react";
 import Title from "./Title.tsx";
 import RecordMessage from "./RecordMessage.tsx";
 import axios from "axios";
@@ -67,10 +67,25 @@ export default function Controller() {
     setIsLoading(false);
   };
 
+  const renderedMessages = messages.map((audio, i) => (
+    <div
+      key={i}
+      className={`flex flex-col ${
+        audio.sender === "luna" ? "flex items-end" : ""
+      }`}
+    >
+      <div className="mt-4">Hello</div>
+    </div>
+  ));
+  console.log(renderedMessages);
+
   return (
     <div className="h-screen overflow-y-hidden">
       <Title setMessages={setMessages} />
       <div className="flex flex-col justify-between h-full overflow-y-scroll pb-96">
+        {/* CONVERSATION */}
+        <div className="mt-5 px-5">{renderedMessages}</div>
+
         {/* RECORDER */}
         <div className="fixed bottom-0 w-full py-6 border-t text-center bg-gradient-to-r from-sky-500 to-green-500">
           <div className="flex justify-center items-center w-full">
