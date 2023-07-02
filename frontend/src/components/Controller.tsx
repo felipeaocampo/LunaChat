@@ -1,4 +1,4 @@
-import React, { useId, useState } from "react";
+import { useState } from "react";
 import Title from "./Title.tsx";
 import RecordMessage from "./RecordMessage.tsx";
 import axios from "axios";
@@ -90,7 +90,6 @@ export default function Controller() {
       </div>
     </div>
   ));
-  console.log(renderedMessages);
 
   return (
     <div className="h-screen overflow-y-hidden">

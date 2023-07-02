@@ -2,7 +2,7 @@ import Controller from "./components/Controller.tsx";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Controller />
     </div>
   );
