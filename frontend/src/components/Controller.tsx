@@ -74,7 +74,20 @@ export default function Controller() {
         audio.sender === "luna" ? "flex items-end" : ""
       }`}
     >
-      <div className="mt-4">Hello</div>
+      <div className="mt-4">
+        <p
+          className={
+            audio.sender === "luna"
+              ? "text-right mr-2 italic text-green-500"
+              : "ml-2 italic text-blue-500"
+          }
+        >
+          {audio.sender}
+        </p>
+
+        {/* Audio Message */}
+        <audio src={audio.blobUrl} className="appearance-none" controls />
+      </div>
     </div>
   ));
   console.log(renderedMessages);
@@ -84,7 +97,19 @@ export default function Controller() {
       <Title setMessages={setMessages} />
       <div className="flex flex-col justify-between h-full overflow-y-scroll pb-96">
         {/* CONVERSATION */}
-        <div className="mt-5 px-5">{renderedMessages}</div>
+        <div className="mt-5 px-5">
+          {renderedMessages}
+          {messages.length === 0 && !isLoading && (
+            <div className="text-center font-light italic mt-10">
+              Send Luna a message...
+            </div>
+          )}
+          {isLoading && (
+            <div className="text-center font-light italic mt-10 animate-pulse">
+              Give me a few seconds...
+            </div>
+          )}
+        </div>
 
         {/* RECORDER */}
         <div className="fixed bottom-0 w-full py-6 border-t text-center bg-gradient-to-r from-sky-500 to-green-500">
