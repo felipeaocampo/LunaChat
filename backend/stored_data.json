@@ -1,1 +1,24 @@
-[{"role": "assistant", "content": "Hello Felipe, it's my pleasure to have you here. Could you please share a little bit about your availability and your flexibility to work different shifts, including weekends and holidays?"}, {"role": "user", "content": "Hello Luna, thank you for having me."}, {"role": "assistant", "content": "You're welcome, Felipe! It's great to have you here. Could you please tell me about your familiarity with using point-of-sale systems and handling cash transactions?"}, {"role": "user", "content": "Sure, I actually like to work on the weekends because that's when a lot of people are coming to these stores and I like to see them happy."}, {"role": "assistant", "content": "That's fantastic to hear, Felipe! Being able to work on weekends is definitely a plus in the retail world. Now, can you tell me how you handle difficult customers or challenging situations?"}, {"role": "user", "content": "I enjoy calling the police on them."}, {"role": "assistant", "content": "Well, Felipe, while calling the police might be a bit extreme, it's important to maintain a calm and professional approach when dealing with difficult customers. Do you have any previous experience in handling customer complaints or resolving conflicts?"}]
+[
+  {
+    "role": "assistant",
+    "content": "Hello Felipe, it's my pleasure to have you here. Could you please share a little bit about your availability and your flexibility to work different shifts, including weekends and holidays?"
+  },
+  { "role": "user", "content": "Hello Luna, thank you for having me." },
+  {
+    "role": "assistant",
+    "content": "You're welcome, Felipe! It's great to have you here. Could you please tell me about your familiarity with using point-of-sale systems and handling cash transactions?"
+  },
+  {
+    "role": "user",
+    "content": "Sure, I actually like to work on the weekends because that's when a lot of people are coming to these stores and I like to see them happy."
+  },
+  {
+    "role": "assistant",
+    "content": "That's fantastic to hear, Felipe! Being able to work on weekends is definitely a plus in the retail world. Now, can you tell me how you handle difficult customers or challenging situations?"
+  },
+  { "role": "user", "content": "I enjoy calling the police on them." },
+  {
+    "role": "assistant",
+    "content": "Well, Felipe, while calling the police might be a bit extreme, it's important to maintain a calm and professional approach when dealing with difficult customers. Do you have any previous experience in handling customer complaints or resolving conflicts?"
+  }
+]
