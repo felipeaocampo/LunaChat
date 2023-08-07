@@ -61,6 +61,6 @@ https://github.com/felipeaocampo/LunaChat/assets/95617522/023aad4b-1c56-4415-a14
 
 ## Contributing
 
-If you are interested in contributing, feel free to submit an issue or a pull request! LunaChat is open source and so contributions from other developers who are excited about the project are more than welcome!
+If you are interested in contributing, feel free to submit an issue or a pull request! LunaChat is open source and so contributions from other developers are more than welcome!
 
 
